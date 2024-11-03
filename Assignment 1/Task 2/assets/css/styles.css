@@ -1,0 +1,57 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+.buttons-list{
+
+ background-color: aliceblue;
+ list-style: none;
+
+}
+
+
+button{
+float: left;
+margin: 10px;
+border: 1px solid transparent;
+ border-radius: 0.25rem;
+ padding: 0.375rem 0.75rem;
+}
+
+.button-primary{
+    color: #fff;
+    background-color: #2155e3;
+}
+
+.button-secondary{
+    color: #fff;
+    background-color: #007bff;
+}
+
+.button-success{
+    color: #fff;
+    background-color: #28a745;
+}
+
+.button-info{
+    color: #fff;
+    background-color: #17a2b8;
+}
+
+.button-warning{
+    color : #fff;
+    background-color: #ffc107;
+}
+
+.button-danger{
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.button-dark{
+    color: #fff;
+    background-color: #343a40;
+}

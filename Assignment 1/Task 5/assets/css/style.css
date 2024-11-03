@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+table{
+    width: 40%;
+    float: left;
+    margin-top: 140px;
+    margin-left: 100px;
+    border: 1px solid rgba(184, 184, 189, 0.559);
+    border-radius: 8px;
+    font-family: "Roboto";
+
+}
+
+th, td {
+   border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+}
+
+.viewbtn{
+    color: green;
+    text-decoration: none;
+}
+
+.btn{
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+   cursor: pointer;
+
+}
+
+.confbtn{
+    background-color: rgb(62, 191, 62);
+}
+
+.waitbtn{
+    background-color: orange;
+}
+
+.cancbtn{
+    background-color: red;
+}
+
+.striped tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

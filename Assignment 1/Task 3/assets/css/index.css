@@ -1,0 +1,52 @@
+
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ .form-section{
+    width: 800px;
+    height: auto;
+    position: relative;
+   left: 400px;
+    top: 50px;
+    border-radius: 6px;
+  padding: 10px;
+  padding-right: 20px;
+background-color:aliceblue;
+}
+
+
+ label{
+    font-family: "Roboto";
+    display: block;
+    margin: 10px
+ }
+input, textarea{
+   width: 100%;
+   margin: 10px;
+   padding: 10px;
+   border: 1px solid gainsboro;
+   border-radius: 5px;
+}
+
+#message{
+    height: 80px;
+}
+
+#submit-button{
+    float: right;
+    width: 100px;
+    height: 40px;
+    padding: 8px;
+    color: #fff;
+    background-color: rgb(47, 47, 156);
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    
+}
+
+.clear{
+    clear: both;
+}

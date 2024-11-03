@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.blogs {
+  background-color: #990866;
+  
+}
+
+.clear {
+  clear: both;
+}
+
+.blogs .article {
+  width: calc(100% / 3);
+  height: 360px;
+  background-color: aqua;
+  margin-bottom: 10px;
+  display: inline-block;
+ float: left;
+ padding: 20px;
+ border:10px solid #990866;
+}
