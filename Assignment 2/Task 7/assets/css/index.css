@@ -1,0 +1,52 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgb(202, 214, 224);
+}
+
+.items-section{
+   margin: 10px;
+}
+
+.item{
+    background-color: white;
+    width: calc(100%/3);
+    height: 480px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.header{
+    height: 270px;
+    background-image: url("./photos/img.jpg");
+    border: 1px solid transparent;
+  border-radius: 5px;
+
+}
+
+.main{
+    padding: 21px;
+    height: 200px;
+}
+
+.main h1{
+    font-size: 21px;
+    font-family:'arial' ;
+    color: rgb(34, 33, 33);
+    margin-bottom: 13px;
+}
+
+.main p{
+
+    font-size: 15px;
+    font-family:'arial' ;
+    color: rgb(34, 33, 33);
+    margin-bottom: 18px;
+    line-height: 21px;
+}

@@ -1,0 +1,37 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    padding: 70px;
+    background-color: skyblue;
+    border: 5px solid black;
+}
+
+
+.main{
+    width: 60%;
+    padding: 220px;
+   
+}
+
+
+footer{
+    background-color: pink;
+    border: 5px solid black;
+    padding: 35px;
+}
+
+@media (max-width: 768px) {
+    .main {
+        width: 100%;
+        
+    }
+}
